@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+
+	<title>于斯微琴房</title>
+
+
+	<!-- stylesheet css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/video-js.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<!--<link rel="stylesheet" href="css/style2.css">-->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- google web font css -->
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600,700' rel='stylesheet' type='text/css'>
+
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+<!--loader-->
+<div id="myloader">
+	<div class="loader">
+		<div class="grid">
+			<div class="cube cube1"></div>
+			<div class="cube cube2"></div>
+			<div class="cube cube3"></div>
+			<div class="cube cube4"></div>
+			<div class="cube cube5"></div>
+			<div class="cube cube6"></div>
+			<div class="cube cube7"></div>
+			<div class="cube cube8"></div>
+			<div class="cube cube9"></div>
+		</div>
+	</div>
+</div>
+<!-- navigation -->
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+				<span class="icon icon-bar"></span>
+			</button>
+			<a href="#home" class="navbar-brand smoothScroll"><img src="images/wei_logo.png"></a>
+		</div>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#home" class="smoothScroll">首页</a></li>
+				<li><a href="#service" class="smoothScroll">琴房介绍</a></li>
+				<li><a href="#about" class="smoothScroll">于斯课堂</a></li>
+				<li><a href="#carousel-example-generic" class="smoothScroll">专家团队</a></li>
+				<li><a href="#portfolio" class="smoothScroll">了解更多</a></li>
+				<li><a href="#footer" class="smoothScroll">关于我们</a></li>
+			</ul>
+		</div>
+	</div>
+</div>		
+
+<!-- home section -->
+
+<div id="home">
+	<canvas class="stage"></canvas>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-offset-5 col-sm-6">
+				<img src="images/index_banner1_tip2.png" class="img-responsive index_banner animated fadeInDownBig">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-offset-6 col-md-6 col-sm-offset-6 col-sm-6  piano-room animated bounceInRight">
+				<h1><strong>于斯微琴房</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- service section -->
+<div id="service">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<h2>于斯微琴房介绍</h2>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<i class="fa fa-home"></i>
+				<h3>公司简介</h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;于斯教育科技(上海)有限公司是一家创新的互联网音乐教育科技公司。</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;以传播音乐专业知识为核心，将素质音乐教育的学习互联网化，趣味化，智能化，全方位为用户提供科学,专业,系统化的教学与服务。</p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<i class="fa fa-group"></i>
+				<h3>快乐钢琴家</h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;快乐钢琴家是于斯微琴房专用教学课件，由语速教研团队联合中国十一大音乐学园名仕共同研究，专为中国儿童学习方法打造的启蒙钢琴教学法。</p>
+			</div>
+			<div class="col-md-4 col-sm-4">
+				<i class="fa fa-heart-o"></i>
+				<h3>八大体系保驾护航</h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;教学设备支持，教学课件支持，运营招生支持，钢琴销售支持，盟商师资培训，盟商教师资格认证
+				，盟商举办线下名师培训，学员在线考级。</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- about section -->
+<div id="about">
+	<div id="myCarousel" class="carousel slide">
+		<!-- Carousel items -->
+		<div class="carousel-inner">
+			<div class="active item"><div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>于斯教育</h2>
+					</div>
+					<div class="col-md-6 ">
+						<video
+								id="my-player"
+								class="video-js vjs-big-play-centered"
+								controls
+								preload="auto"
+								poster="images/ys.png"
+								width="550px"
+								data-setup='{}'>
+							<source src="http://v.yusi.tv/ugc/video/6666/06/00/20160623122256_708.MP4_28301.mp4" type="video/mp4"></source>
+							<p class="vjs-no-js">
+								To view this video please enable JavaScript, and consider upgrading to a
+								web browser that
+								<a href="http://videojs.com/html5-video-support/" target="_blank">
+									supports HTML5 video
+								</a>
+							</p>
+						</video>
+					</div>
+					<div class="col-md-5 col-md-offset-1">
+						<h4>于斯战略合作</h4>
+						<p>于斯携手中国文化部文化艺术人才中心，邀请国内专业音乐学院钢琴系
+							专家学者，共同开创线上线下有机结合的钢琴教育新模式，在全社会开
+							展规范、专业的钢琴人才培训，为全国钢琴教育从业者提供高效、便捷、
+							系统的钢琴培训。
+							双方将共同开展钢琴教学人才基础培训、中级培训、高级培训。
+							全国巡讲，致力于为中国培养优秀的基层音乐教师。培训合格后，将直
+							接颁发由中国文化部授权的执业资质证书。至此，于斯成为中国最高等
+							级的社会师资培训机构。</p>
+						<p>于斯教育同上海音乐家协会达成战略合作关系，独家获得上
+							海音乐家协会艺术等级考级网络资质。未来，参加上海音乐
+							家协会举行的各类艺术考级将可以在网络直接报名考试。合
+							作后，于斯打造出全国唯一的网络考级平台。从此，报名、
+							考级、拿证一站式解决。</p>
+					</div>
+				</div>
+			</div></div>
+			<div class="item"><div class="container">
+				<div class="row">
+					<div class="col-md-12 ">
+						<h2>于斯课堂</h2>
+					</div>
+					<div class="col-md-6 ">
+						<video
+								id="my-player"
+								class="video-js vjs-big-play-centered"
+								controls
+								preload="auto"
+								poster="images/ys-2.png"
+								width="550px"
+								data-setup='{}'>
+							<source src="http://image.yusi.tv/res/fileupload/file/07/20160708110224_635.mp4	" type="video/mp4"></source>
+							<p class="vjs-no-js">
+								To view this video please enable JavaScript, and consider upgrading to a
+								web browser that
+								<a href="http://videojs.com/html5-video-support/" target="_blank">
+									supports HTML5 video
+								</a>
+							</p>
+						</video>
+					</div>
+					<div class="col-md-5 col-md-offset-1">
+						<h4>贺词</h4>
+						<p>于斯携手中国文化部文化艺术人才中心，邀请国内专业音乐学院钢琴系
+							专家学者，共同开创线上线下有机结合的钢琴教育新模式，在全社会开
+							展规范、专业的钢琴人才培训，为全国钢琴教育从业者提供高效、便捷、
+							系统的钢琴培训。
+							双方将共同开展钢琴教学人才基础培训、中级培训、高级培训。
+							全国巡讲，致力于为中国培养优秀的基层音乐教师。培训合格后，将直
+							接颁发由中国文化部授权的执业资质证书。至此，于斯成为中国最高等
+							级的社会师资培训机构。</p>
+						<p>于斯教育同上海音乐家协会达成战略合作关系，独家获得上
+							海音乐家协会艺术等级考级网络资质。未来，参加上海音乐
+							家协会举行的各类艺术考级将可以在网络直接报名考试。合
+							作后，于斯打造出全国唯一的网络考级平台。从此，报名、
+							考级、拿证一站式解决。</p>
+					</div>
+				</div>
+			</div></div>
+			<div class="item"><div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2>于斯课堂</h2>
+					</div>
+					<div class="col-md-6">
+						<video
+								id="my-player"
+								class="video-js vjs-big-play-centered"
+								controls
+								preload="auto"
+								poster="images/ys-3.png"
+								width="550px"
+								data-setup='{}'>
+							<source src="http://image.yusi.tv/res/fileupload/file/07/20160708103727_528.mp4 " type="video/mp4"></source>
+							<p class="vjs-no-js">
+								To view this video please enable JavaScript, and consider upgrading to a
+								web browser that
+								<a href="http://videojs.com/html5-video-support/" target="_blank">
+									supports HTML5 video
+								</a>
+							</p>
+						</video>
+					</div>
+					<div class="col-md-5 col-md-offset-1">
+						<h4>快乐钢琴家</h4>
+						<p>于斯微琴房是于斯教育旗下智能钢琴教室，面向全国合作运营。采用集体课授课模式，以《快乐钢琴家》为标准教学内容，该课程由于斯教研团队联合国内十一大音乐学院教授共同开发，学生学完可直接参加国内任何钢琴考级，而且是目前唯一学完可直接参加英皇钢琴考级的集体课教程。</p>
+						<p>《快乐钢琴家》是于斯微琴房专用教学课件，由于斯教研团队联合中国十一大音乐学院名师共同研发，专为中国儿童学习钢琴打造的一套的启蒙钢琴教学法。《快乐钢琴家》初级共分五册，计划学期为五个学期，每节课程大约60分钟，根据儿童的成长特点及学习规律，将每节课拆分不同的教学板块，主要有歌唱律动、知识宝盒、演奏示范、演奏练习、合奏练习、音乐盒、创作填写等。</p>
+					</div>
+				</div>
+			</div></div>
+			<div class="item"><div class="container">
+				<div class="row">
+					<div class="col-md-12 ">
+						<h2>于斯课堂</h2>
+					</div>
+					<div class="col-md-6">
+						<video
+								id="my-player"
+								class="video-js vjs-big-play-centered"
+								controls
+								preload="auto"
+								poster="images/ys-4.png"
+								width="550px"
+								data-setup='{}'>
+							<source src="https://v.qq.com/iframe/player.html?vid=i0362pq9y0t&width=670&height=502.5&auto=0" type="video/mp4"></source>
+
+							<p class="vjs-no-js">
+								To view this video please enable JavaScript, and consider upgrading to a
+								web browser that
+								<a href="http://videojs.com/html5-video-support/" target="_blank">
+									supports HTML5 video
+								</a>
+							</p>
+						</video>
+					</div>
+					<div class="col-md-5 col-md-offset-1 ">
+						<h4>about &amp; 架子鼓</h4>
+						<p>于斯智能架子鼓教室是上海于斯教育2016年全新推出的架子鼓集体课教室，开启一对多教学，通过智能教学系统的软硬件结合，演奏实时呈现，智能纠错，针对性辅导，确保每一位学员都能够有效掌握教学内容。</p>
+						<p>《小小鼓王》是于斯智能架子鼓教室配套的标准化教学课件，课程内容由于斯教研团队同中国权威音乐学院教授专家联合编写而成。整体教学体系分为初级、中级和高级部分，吸取目前国际上先进的架子鼓教育经验，再与于斯智能教学系统相结合，通过集体课的教学模式授课。课件内容编排合理、层级分明、风格全面、扩展性强，同时还具有智能化、趣味化、互动化、标准化等特点。
+						</p>
+					</div>
+				</div>
+			</div></div>
+		</div>
+		<!-- Carousel nav -->
+		<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+
+</div>
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- carousel-example-generic -->
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+	<!-- Wrapper for slides -->
+	<div class="carousel-inner" role="listbox">
+		<div class="item active">
+			<div id="team">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<h2>专家团队</h2>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-1.png" class="img-responsive  team" alt="team img">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-2.png" class="img-responsive  team" alt="team img">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-3.png" class="img-responsive team" alt="team img">
+
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-4.png" class="img-responsive  team" alt="team img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div id="team">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<h2>专家团队</h2>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-5.png" class="img-responsive  team" alt="team img">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-6.png" class="img-responsive team" alt="team img">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-7.png" class="img-responsive  team" alt="team img">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-8.png" class="img-responsive  team" alt="team img">
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		<div class="item">
+			<div id="team">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<h2>专家团队</h2>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-9.png" class="img-responsive  team" alt="team img">
+
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-10.png" class="img-responsive  team" alt="team img">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-11.png" class="img-responsive team" alt="team img">
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<img src="images/ms-12.png" class="img-responsive  team" alt="team img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Indicators -->
+	<ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+	</ol>
+</div>
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- portfolio section -->
+<div id="portfolio">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<div class="title">
+					<h2>了解更多</h2>
+				</div>
+				<!-- ISO section -->
+				<div class="iso-section">
+					<ul class="filter-wrapper clearfix">
+                   		 <li><a href="#" data-filter="*" class="selected opc-main-bg">于斯微琴房</a></li>
+                   		 <li><a href="#" class="opc-main-bg" data-filter=".html">架子鼓</a></li>
+                   		 <li><a href="#" class="opc-main-bg" data-filter=".photoshop">快乐钢琴家</a></li>
+                    	 <li><a href="#" class="opc-main-bg" data-filter=".wordpress">于斯教育</a></li>
+                    	 <li><a href="#" class="opc-main-bg" data-filter=".mobile">智能钢琴</a></li>
+               		</ul>
+               		<div class="iso-box-section">
+               			<div class="iso-box-wrapper col4-iso-box">
+
+               				<div class="iso-box html col-md-4 col-sm-6 col-xs-12">
+               				 	<a href="images/jzg-1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/jzg-1.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box html col-md-4 col-sm-6 col-xs-12">
+               				 	<a href="images/jzg-2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/jzg-2.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box html col-md-4 col-sm-6 col-xs-12">
+               				 	<a href="images/jzg-3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/jzg-3.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box html col-md-4 col-sm-6 col-xs-12">
+               				 	<a href="images/jzg-4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/jzg-4.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box photoshop col-md-4 col-sm-6 col-xs-12">
+               				 	<a href="images/ky-1.png" data-lightbox-gallery="portfolio-gallery"><img src="images/ky-1.png" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box photoshop col-md-4 col-sm-6 col-xs-12">
+               				 	<a href="images/ky-2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/ky-2.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box wordpress col-md-4 col-sm-6 col-xs-12">
+               				 	<a href="images/ysj-1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/ysj-1.jpg" alt="portfolio img"></a>
+               				 </div>
+
+               				 <div class="iso-box wordpress col-md-4 col-sm-6 col-xs-12">
+               				 	<a href="images/ysj-2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/ysj-2.jpg" alt="portfolio img"></a>
+               				 </div>
+							<div class="iso-box wordpress col-md-4 col-sm-6 col-xs-12">
+								<a href="images/ysj-3.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/ysj-3.jpg" alt="portfolio img"></a>
+							</div>
+							<div class="iso-box wordpress col-md-4 col-sm-6 col-xs-12">
+								<a href="images/ysj-4.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/ysj-4.jpg" alt="portfolio img"></a>
+							</div>
+							<div class="iso-box mobile col-md-4 col-sm-6 col-xs-12">
+								<a href="images/zn-1.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/zn-1.jpg" alt="portfolio img"></a>
+							</div>
+							<div class="iso-box mobile col-md-4 col-sm-6 col-xs-12">
+								<a href="images/zn-2.jpg" data-lightbox-gallery="portfolio-gallery"><img src="images/zn-2.jpg" alt="portfolio img"></a>
+							</div>
+
+               			</div>
+               		</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>		
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- pricing section -->
+<div id="pricing">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-6 col-xs-10">
+				<div class="plan">
+					<div class="plan-title">
+						<img src="images/sc-1.png" class="img-responsive">
+						<small>文化部文化艺术人才中心培训合作</small>
+					</div>
+					<p> 中国文化部文化艺术人才中心携手于斯课堂、联合中国十一大音乐学院权威教授专家，利用互联网+音乐教育的先进理念，共同开创线上线下有力结合的钢琴教育培训新模式，在全社会开展规范、专业的钢琴专业人才培训，为全国钢琴教育从业者提供高效、便捷、系统的专业培训。 培训内容具体分为基础培训、中级培训、高级培训。培训合后，将获得由中国文化部授权的执业资质证书。合作以后，于斯成为中国最高等级的社会钢琴师资培训机构。</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-10">
+				<div class="plan">
+					<div class="plan-title">
+						<img src="images/sc-2.png" class="img-responsive">
+						<small>中央音乐学院现代远程教育学院 战略合作</small>
+					</div>
+					<p>于斯课堂与中央音乐学院现代远程教育学院签署战略合作，开展于斯课堂定制的音乐教师专业培训。 中央音乐学院远程教育是教育部批准的唯一一所艺术类网络教育学院。合作后，主要面向于斯课堂平台教师，针对日常教学难题，专门定制系统的培训课程与考核流程。为于斯课堂的音乐教师队伍健康发展提供双重保障。 同时，中央音乐学院授权于斯教育为上海市全国音乐教师资格认证中心，直接向参加培训的教师颁发音乐教师资格证书</p>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-10">
+				<div class="plan">
+					<div class="plan-title">
+						<img src="images/sc-3.png" class="img-responsive">
+						<small>上海音乐家协会战略合作</small>
+					</div>
+					<p>上海音乐家协会创建于1949年8月，是上海地区音乐家的联合组织，会员包括上海地区各音乐领域内最优秀的专家、学者、表演艺术家和群众音乐工作者。 于斯课堂同上海音乐家协会达成战略合作关系，参加上海音乐家协会举行的各类艺术考级将可以在网络直接报名考试，于斯课堂成为了全国唯一的钢琴网络考级平台。 从此，上海音乐家协会钢琴考级报名、考级、拿证一站式解决，为广大音乐爱好者提供了高效、便捷、专业的服务。</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-12 area animate">
+				<h2>区域加盟1</h2>
+				<p><small>山东、江苏、安徽、浙江、福建、上海，四川、云南、贵州、西藏、重庆</small></p>
+				<p>Email: <span class="mail">chenrongke@yusi.com</span></p>
+				<p>代理加盟咨询: <span class="phone">150 2129 7715</span></p>
+			</div>
+			<div class="col-md-4 col-sm-12 animate">
+				<h2>区域加盟2</h2>
+				<p><small>广东、广西、海南，北京、天津、河北、山西、内蒙古，辽宁、吉林.</small></p>
+				<p>Email: <span class="mail">yangsenjun@yusi.com</span></p>
+				<p>代理加盟咨询: <span class="phone">183 2163 8292</span></p>
+			</div>
+			<div class="col-md-4 col-sm-12 animate">
+				<h2>区域加盟3</h2>
+				<p><small>湖北、湖南、河南、江西，宁夏、新疆、青海、陕西、甘肃，黑龙江，台港澳地区</small></p>
+				<p>Email: <span class="mail">zhangjie@yusi.com</span></p>
+				<p>代理加盟咨询: <span class="phone">177 2114 4433</span></p>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- divider section -->
+<div class="container">
+	<div class="row">
+		<div class="col-md-1 col-sm-1"></div>
+		<div class="col-md-10 col-sm-10">
+			<hr>
+		</div>
+		<div class="col-md-1 col-sm-1"></div>
+	</div>
+</div>
+
+<!-- copyright section -->
+<div class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright &copy; 2013-2017于斯艺术版权所有
+					沪ICP备14023209号</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- scrolltop section -->
+<a href="#top" class="go-top"><i class="fa fa-angle-up"></i></a>
+
+
+<!-- javascript js -->	
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/pace.min.js"></script>
+<script src="js/video.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/canvas.js"></script>
+<script src="js/style.js"></script>
+
+</body>
+</html>
